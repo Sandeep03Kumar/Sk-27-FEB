@@ -10,7 +10,7 @@ const requestHandler = (req, res) => { // Qa
 }; // Qa
 // Qa
 const server = http.createServer(requestHandler); // Qa
-// Qa
+/* istanbul ignore next */ // Qa
 if (require.main === module) { // Qa
   server.listen(port, hostname, () => { // Qa
     console.log(`Server running at http://${hostname}:${port}/`); // Qa
